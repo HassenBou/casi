@@ -1,0 +1,11 @@
+:root{
+  color-scheme:dark;
+  --abyss:#0B0E14; --abyss-2:#10141d; --abyss-3:#161b27;
+  --gold:#FFD700; --gold-soft:#F4C430; --green:#2E7D32; --green-lit:#7BD17F; --red:#E53935;
+  --ink:#F3EEE2; --ink-dim:#A3ACBF; --line:rgba(255,215,0,.16);
+  --glow:radial-gradient(closest-side,rgba(255,215,0,.15),transparent);
+  --f-display:'Fredoka',system-ui,sans-serif; --f-text:'Newsreader',Georgia,serif;
+  --s1:.5rem; --s2:1rem; --s3:1.5rem; --s4:2.5rem; --s5:4rem; --s6:7rem;
+  --r-sm:12px; --r-lg:28px; --wrap:min(1180px,92vw);
+  --ease:cubic-bezier(.2,.8,.2,1);
+}

@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CaSi: The Secret Key Holder | Season 1</title>
+    <meta name="description"
+        content="A handcrafted hero. A 30-night pact. Ten hidden keys to protect the house from the Shadow King.">
+    <meta name="theme-color" content="#0B0E14">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body><canvas id="fx" aria-hidden="true"></canvas>
+    <header class="nav">
+        <div class="wrap"><a href="index.html" aria-label="CaSi home"><img src="assets/logo.png" alt="CaSi"></a>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html#story">Story</a></li>
+                    <li><a href="index.html#champions">The Champions</a></li>
+                    <li><a href="index.html#episodes">Season 1 Episodes</a></li>
+                    <li><a href="index.html#lore">Key Lore</a></li>
+                    <li><a href="index.html#premiere">Premiere</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="btn sm" href="index.html#premiere">Watch trailer</a><button class="burger" aria-label="Menu"
+                aria-expanded="false" aria-controls="menu">☰</button>
+        </div>
+    </header>
+    <main id="top">
+        <section class="hero" aria-label="CaSi hero">
+            <div class="layer l-bg" data-speed=".2"></div>
+            <div class="layer l-tendril" data-speed=".35"><svg viewBox="0 0 1600 1000" preserveAspectRatio="none">
+                    <path d="M-50 700C200 500 300 800 600 560S900 200 1200 420 1500 300 1700 120" fill="none"
+                        stroke="#6a3fb5" stroke-width="26" stroke-linecap="round" opacity=".6" />
+                    <path d="M-50 860C300 700 520 960 860 760S1300 560 1700 700" fill="none" stroke="#2b1b52"
+                        stroke-width="40" stroke-linecap="round" />
+                </svg></div>
+            <div class="layer l-shade"></div>
+            <div class="layer l-needles" data-speed=".5"><svg viewBox="0 0 1600 1000" preserveAspectRatio="none">
+                    <defs>
+                        <linearGradient id="ng" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0" stop-color="#fff" stop-opacity=".7" />
+                            <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <line x1="80" y1="-100" x2="140" y2="800" stroke="url(#ng)" stroke-width="2" />
+                    <line x1="330" y1="-300" x2="390" y2="600" stroke="url(#ng)" stroke-width="2" />
+                    <line x1="980" y1="-200" x2="1040" y2="700" stroke="url(#ng)" stroke-width="2" />
+                    <line x1="1240" y1="-80" x2="1300" y2="820" stroke="url(#ng)" stroke-width="2" />
+                    <line x1="1500" y1="-260" x2="1560" y2="640" stroke="url(#ng)" stroke-width="2" />
+                </svg><span class="key" style="left:55%;top:18%;animation-delay:0s;scale:0.8"><svg viewBox="0 0 24 48"
+                        fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M12 0a8 8 0 0 0-2 15.7V44l2 4 2-4-2-2 3-2-3-2 3-2-3-2V15.7A8 8 0 0 0 12 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" />
+                    </svg></span><span class="key" style="left:72%;top:52%;animation-delay:-2s;scale:1"><svg
+                        viewBox="0 0 24 48" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M12 0a8 8 0 0 0-2 15.7V44l2 4 2-4-2-2 3-2-3-2 3-2-3-2V15.7A8 8 0 0 0 12 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" />
+                    </svg></span><span class="key" style="left:86%;top:22%;animation-delay:-4s;scale:0.6"><svg
+                        viewBox="0 0 24 48" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M12 0a8 8 0 0 0-2 15.7V44l2 4 2-4-2-2 3-2-3-2 3-2-3-2V15.7A8 8 0 0 0 12 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" />
+                    </svg></span><span class="key" style="left:48%;top:66%;animation-delay:-5s;scale:0.7"><svg
+                        viewBox="0 0 24 48" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M12 0a8 8 0 0 0-2 15.7V44l2 4 2-4-2-2 3-2-3-2 3-2-3-2V15.7A8 8 0 0 0 12 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" />
+                    </svg></span></div>
+            <div class="wrap hero-copy" data-speed="1"><span class="pill">Episode 01 arrives 14 April 2027</span>
+                <h1>When the clock strikes midnight, <span>the yarn awakens.</span></h1>
+                <p>A handcrafted hero. A 30-night pact. Ten hidden keys to protect the house from the Shadow King.</p>
+                <div class="cta"><a class="btn gold" href="#premiere">Watch teaser trailer</a><a class="btn green"
+                        href="#episodes">Discover Season 1</a></div>
+            </div>
+            <div class="hand" aria-hidden="true"><i>12</i></div>
+        </section>
+        <section class="sec legend" id="story">
+            <div class="wrap">
+                <div data-r>
+                    <p class="kicker">The legend</p>
+                    <h2>The 30-night midnight pact</h2>
+                    <div class="pact">
+                        <div><strong>30</strong>nights of training</div>
+                        <div><strong>10</strong>hidden Star Keys</div>
+                        <div><strong>1</strong>Shadow King</div>
+                    </div>
+                </div>
+                <div data-r>
+                    <p>Tucked inside Grandma’s wooden sewing box lies a secret smaller than a thimble, yet stronger than
+                        iron. <b>CaSi</b>, a small crocheted cactus holding magical keys in her yellow yarn pot, must
+                        lead her sewing box allies through midnight training to recover the hidden Star Keys before the
+                        Shadow King consumes the home’s memories.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sec champs" id="champions">
+            <div class="wrap">
+                <div class="head" data-r>
+                    <p class="kicker">Meet the squad</p>
+                    <h2>The sewing box champions</h2>
+                </div>
+                <div class="cards"><a class="card" style="--c:var(--green-lit)" href="char-casi.html" data-r><img
+                            src="assets/chars/casi.jpg" alt="CaSi, The Fiber Guardian" loading="lazy">
+                        <div class="tx">
+                            <h3>CaSi</h3>
+                            <div class="role">The Secret Key Holder</div>
+                            <div class="tag">The Fiber Guardian</div>
+                            <p class="d">Handcrafted from green yarn and armed with a glowing pink blossom, CaSi wields
+                                sewing needles and Star Keys to defend the household.</p><span class="more">Meet
+                                CaSi</span>
+                        </div>
+                    </a><a class="card" style="--c:#cfd8e6" href="char-snip.html" data-r><img
+                            src="assets/chars/snip.jpg" alt="Snip, Silver Tailor Scissors" loading="lazy">
+                        <div class="tx">
+                            <h3>Snip</h3>
+                            <div class="role">The Blade of Precision</div>
+                            <div class="tag">Silver Tailor Scissors</div>
+                            <p class="d">Swift, sharp, and fiercely loyal, Snip cuts through shadow tendrils with razor
+                                precision.</p><span class="more">Meet Snip</span>
+                        </div>
+                    </a><a class="card" style="--c:var(--red)" href="char-pip.html" data-r><img
+                            src="assets/chars/pip.jpg" alt="Pip, Crimson Tomato Pincushion" loading="lazy">
+                        <div class="tx">
+                            <h3>Pip</h3>
+                            <div class="role">The Cushion of Fortitude</div>
+                            <div class="tag">Crimson Tomato Pincushion</div>
+                            <p class="d">The cheerful tactical tank who carries an arsenal of defensive pins and needle
+                                rapiers.</p><span class="more">Meet Pip</span>
+                        </div>
+                    </a><a class="card" style="--c:var(--gold)" href="char-spool.html" data-r><img
+                            src="assets/chars/spool.jpg" alt="Spool, Rainbow Fiber Weaver" loading="lazy">
+                        <div class="tx">
+                            <h3>Spool</h3>
+                            <div class="role">The Thread of Fate</div>
+                            <div class="tag">Rainbow Fiber Weaver</div>
+                            <p class="d">Boundless energy woven into vibrant thread, capable of binding shadowy beasts
+                                and repairing broken bonds.</p><span class="more">Meet Spool</span>
+                        </div>
+                    </a></div>
+            </div>
+        </section>
+        <section class="reel" id="episodes" aria-roledescription="carousel" aria-label="Season 1 episodes">
+            <div class="rhead">
+                <p class="kicker">Ten episodes, ten keys</p>
+                <h2>Season 1: the revelation of the keys</h2>
+            </div>
+            <div class="rtrack" tabindex="0">
+                <article class="slide" id="s1"><img src="assets/eps/ep01.jpg" alt="Episode 1 still: The Midnight Pact"
+                        draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">01</span>
+                        <h3>The Midnight Pact</h3>
+                        <p>The initial awakening and the pact forged at 12:00 AM.</p><a class="btn gold"
+                            href="ep-01.html">Read episode 01</a>
+                    </div>
+                </article>
+                <article class="slide" id="s2"><img src="assets/eps/ep02.jpg"
+                        alt="Episode 2 still: The Sting of the Needle" loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">02</span>
+                        <h3>The Sting of the Needle</h3>
+                        <p>Midnight combat training against skittering dust mites.</p><a class="btn gold"
+                            href="ep-02.html">Read episode 02</a>
+                    </div>
+                </article>
+                <article class="slide" id="s3"><img src="assets/eps/ep03.jpg"
+                        alt="Episode 3 still: The Rattle in the Rust" loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">03</span>
+                        <h3>The Rattle in the Rust</h3>
+                        <p>Purifying the corrupted antique key in the sewing box.</p><a class="btn gold"
+                            href="ep-03.html">Read episode 03</a>
+                    </div>
+                </article>
+                <article class="slide" id="s4"><img src="assets/eps/ep04.jpg" alt="Episode 4 still: The First Star Key"
+                        loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">04</span>
+                        <h3>The First Star Key</h3>
+                        <p>Venturing into the blue linen constellation hallway.</p><a class="btn gold"
+                            href="ep-04.html">Read episode 04</a>
+                    </div>
+                </article>
+                <article class="slide" id="s5"><img src="assets/eps/ep05.jpg"
+                        alt="Episode 5 still: The Attic of Forgotten Toys" loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">05</span>
+                        <h3>The Attic of Forgotten Toys</h3>
+                        <p>Navigating the haunting zero-gravity toy chamber.</p><a class="btn gold"
+                            href="ep-05.html">Read episode 05</a>
+                    </div>
+                </article>
+                <article class="slide" id="s6"><img src="assets/eps/ep06.jpg" alt="Episode 6 still: The Needle’s Edge"
+                        loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">06</span>
+                        <h3>The Needle’s Edge</h3>
+                        <p>Balancing over the mirror abyss of shadow reflections.</p><a class="btn gold"
+                            href="ep-06.html">Read episode 06</a>
+                    </div>
+                </article>
+                <article class="slide" id="s7"><img src="assets/eps/ep07.jpg"
+                        alt="Episode 7 still: The Shadow King’s Shadow" loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">07</span>
+                        <h3>The Shadow King’s Shadow</h3>
+                        <p>Confronting the colossal obsidian portal.</p><a class="btn gold" href="ep-07.html">Read
+                            episode 07</a>
+                    </div>
+                </article>
+                <article class="slide" id="s8"><img src="assets/eps/ep08.jpg" alt="Episode 8 still: Spool’s Unraveling"
+                        loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">08</span>
+                        <h3>Spool’s Unraveling</h3>
+                        <p>A heroic sacrifice of fiber stardust.</p><a class="btn gold" href="ep-08.html">Read episode
+                            08</a>
+                    </div>
+                </article>
+                <article class="slide" id="s9"><img src="assets/eps/ep09.jpg"
+                        alt="Episode 9 still: The Locksmith’s Secret" loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">09</span>
+                        <h3>The Locksmith’s Secret</h3>
+                        <p>Unlocking the multidimensional gear mechanism.</p><a class="btn gold" href="ep-09.html">Read
+                            episode 09</a>
+                    </div>
+                </article>
+                <article class="slide" id="s10"><img src="assets/eps/ep10.jpg" alt="Episode 10 still: The 30th Night"
+                        loading="lazy" draggable="false">
+                    <div class="sh"></div>
+                    <div class="st"><span class="big" aria-hidden="true">10</span>
+                        <h3>The 30th Night</h3>
+                        <p>The climactic 30-notch clock battle for the front door lock.</p><a class="btn gold"
+                            href="ep-10.html">Read episode 10</a>
+                    </div>
+                </article>
+            </div>
+            <div class="rctrl">
+                <div class="ticks"><button aria-label="Episode 1" data-i="0"></button><button aria-label="Episode 2"
+                        data-i="1"></button><button aria-label="Episode 3" data-i="2"></button><button
+                        aria-label="Episode 4" data-i="3"></button><button aria-label="Episode 5"
+                        data-i="4"></button><button aria-label="Episode 6" data-i="5"></button><button
+                        aria-label="Episode 7" data-i="6"></button><button aria-label="Episode 8"
+                        data-i="7"></button><button aria-label="Episode 9" data-i="8"></button><button
+                        aria-label="Episode 10" data-i="9"></button></div><span class="cnt"><b>01</b> / 10</span><button
+                    id="prev" aria-label="Previous episode">←</button><button id="next"
+                    aria-label="Next episode">→</button>
+            </div>
+        </section>
+        <section class="sec lore" id="lore">
+            <div class="wrap">
+                <div class="lore-top">
+                    <div class="poster" data-r><img src="assets/poster.jpg"
+                            alt="CaSi: The Secret Key Holder poster, Season 1 coming soon" loading="lazy"></div>
+                    <div data-r>
+                        <p class="kicker">Key lore</p>
+                        <h2>One key. A thousand secrets.</h2>
+                        <p class="lead">Every door in the house hides a world, and every world is guarded by something
+                            that wants to keep it shut. CaSi does not carry keys to open doors. She carries them to
+                            remember what lives behind them.</p>
+                        <blockquote>Every door hides a world.</blockquote>
+                    </div>
+                </div>
+                <div class="lgrid">
+                    <article class="lc" data-r><img src="assets/eps/ep01.jpg" alt="" loading="lazy">
+                        <div>
+                            <h3>The midnight pact</h3>
+                            <p>Every night at 12:00 the yarn wakes. Thirty nights is all CaSi has to train her allies
+                                and gather the keys.</p><a href="ep-01.html">See episode 01</a>
+                        </div>
+                    </article>
+                    <article class="lc" data-r><img src="assets/eps/ep04.jpg" alt="" loading="lazy">
+                        <div>
+                            <h3>The Star Keys</h3>
+                            <p>Ten keys, each one holding a memory of the house. Each is hidden behind a trial of
+                                needle, thread or shadow.</p><a href="ep-04.html">See episode 04</a>
+                        </div>
+                    </article>
+                    <article class="lc" data-r><img src="assets/eps/ep07.jpg" alt="" loading="lazy">
+                        <div>
+                            <h3>The Shadow King</h3>
+                            <p>He does not steal objects. He consumes memories, and the house forgets itself a little
+                                more each night.</p><a href="ep-07.html">See episode 07</a>
+                        </div>
+                    </article>
+                    <article class="lc" data-r><img src="assets/eps/ep10.jpg" alt="" loading="lazy">
+                        <div>
+                            <h3>The 30th night</h3>
+                            <p>A clock with thirty notches guards the front door lock. When the last notch strikes, the
+                                lock opens or stays shut forever.</p><a href="ep-10.html">See episode 10</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="sec prem" id="premiere">
+            <div class="pbg"></div>
+            <div class="glow"></div>
+            <svg class="clock" viewBox="0 0 400 400" aria-hidden="true">
+                <circle cx="200" cy="200" r="190" fill="none" stroke="currentColor" opacity=".35" />
+                <line x1="200" y1="6" x2="200" y2="36" transform="rotate(0 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(12 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(24 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(36 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(48 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="36" transform="rotate(60 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(72 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(84 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(96 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(108 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="36" transform="rotate(120 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(132 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(144 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(156 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(168 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="36" transform="rotate(180 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(192 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(204 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(216 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(228 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="36" transform="rotate(240 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(252 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(264 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(276 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(288 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="36" transform="rotate(300 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(312 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(324 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(336 200 200)" />
+                <line x1="200" y1="6" x2="200" y2="22" transform="rotate(348 200 200)" />
+            </svg>
+            <div class="wrap">
+                <p class="kicker">Season 1 · Episode 01: The Midnight Pact</p>
+                <h2 data-r>The midnight lock opens soon</h2>
+                <p class="date">Premiere: 14 April 2027</p>
+                <div class="timer" data-target="2027-04-14T00:00:00" role="timer" aria-label="Countdown to premiere">
+                    <div><b>00</b><span>Days</span></div>
+                    <div><b>00</b><span>Hours</span></div>
+                    <div><b>00</b><span>Mins</span></div>
+                    <div><b>00</b><span>Secs</span></div>
+                </div>
+                <form class="vip js-form" novalidate><input type="email" required
+                        placeholder="Enter your email for episode stills and key lore"
+                        aria-label="Email address"><button class="btn gold" type="submit">Unlock exclusives</button>
+                </form>
+                <p class="note" role="status"></p>
+            </div>
+        </section>
+        <section class="sec contact" id="contact">
+            <div class="wrap cg">
+                <div data-r>
+                    <p class="kicker">Contact</p>
+                    <h2>Talk to Labinat Studio</h2>
+                    <p class="lead">Press, partnerships, licensing or a message for the team behind CaSi. Tell us what
+                        you have in mind and we will reply.</p>
+                    <p class="studio">Labinat Studio<br><span>Production company of CaSi: The Secret Key Holder</span>
+                    </p>
+                </div>
+                <form class="cf js-form" novalidate data-r><label>Your name<input name="n" required
+                            autocomplete="name"></label><label>Email<input type="email" name="e" required
+                            autocomplete="email"></label>
+                    <label class="full">Subject<select name="s">
+                            <option>Press and media</option>
+                            <option>Partnership</option>
+                            <option>Licensing and merchandise</option>
+                            <option>Message for the team</option>
+                        </select></label>
+                    <label class="full">Message<textarea name="m" rows="5" required></textarea></label><button
+                        class="btn gold" type="submit">Send message</button>
+                    <p class="note full" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <section class="pre">
+        <div class="wrap pre-g">
+            <div><img class="pre-logo" src="assets/logo.png" alt="CaSi: The Secret Key Holder">
+                <p class="hl">Inside Grandma’s sewing box, a crocheted cactus holds ten hidden Star Keys. Thirty
+                    midnights. One Shadow King. One house to protect.</p>
+                <a class="btn gold sm" href="index.html#premiere">Episode 01 · 14 April 2027</a>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html#story">Story</a></li>
+                    <li><a href="index.html#champions">The Champions</a></li>
+                    <li><a href="index.html#episodes">Season 1 Episodes</a></li>
+                    <li><a href="index.html#lore">Key Lore</a></li>
+                    <li><a href="index.html#premiere">Premiere</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Follow the story</h4>
+                <ul class="soc">
+                    <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                    <li><a href="#" aria-label="YouTube">YouTube</a></li>
+                    <li><a href="#" aria-label="TikTok">TikTok</a></li>
+                    <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="X">X</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrap">
+            <p>© 2027 CaSi Animation Series. All Rights Reserved.</p>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="press-kit.html">Press Kit</a></li>
+                <li><a href="production-bible.html">Production Bible</a></li>
+                <li><a href="index.html#contact">Social Channels</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
